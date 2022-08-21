@@ -44,7 +44,7 @@ const char* mqttpass = SECRET_MQTTPASS;
 const IPAddress server("[IP Adress of the RPi]");
 const String url = "[IP Adress of the RPi:8080/calculator/report-json]";
 WiFiClient espClient_http;
-const char* mqtt_server = "mqtt.cetools.org";
+const char* mqtt_server = "[mqtt server]";
 WiFiClient espClient_mqtt;
 PubSubClient client(espClient_mqtt);
 long lastMsg = 0;
